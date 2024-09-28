@@ -10,8 +10,8 @@ export default function Navbar() {
         navRef.current.classList.toggle('responsive_nav');
     }
 
-    return <nav className = "nav bg-slate-950 text-white fixed flex top-0 left-0 w-full px-16 py-6 justify-between items-center z-100">
-        <img src = {logo} alt = "logo" className = "w-100 h-12" />
+    return <nav style = {{backgroundColor:'#0e192b'}} className = "nav text-white fixed flex top-0 left-0 w-full px-16 py-6 justify-between items-center z-100">
+        <img src = {logo} alt = "logo" className = "h-12" />
 
         <div className = "flex content-center">
             <ul ref = {navRef}>
