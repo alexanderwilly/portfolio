@@ -1,3 +1,6 @@
+import Typed from 'typed.js';
+import { useRef, useEffect } from 'react';
+
 import './App.css';
 import Navbar from './props/navbar';
 import home_img from './props/img/home_pic.jpg';
@@ -7,6 +10,22 @@ import linkedin_icon from './props/img/linkedin_icon.png';
 import github_icon from './props/img/github_icon.png';
 
 const App = () => {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['Software Engineer', 'Application Developer', 'Cybersecurity'],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+      loopCount: Infinity,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
   
   return (
     <body>
@@ -23,10 +42,10 @@ const App = () => {
             <h1 className = "text-6xl">WELCOME!</h1>
             <h1 className = "text-6xl text-blue-500">I'M ALEXANDER</h1>
 
-            <p className='text-base'>
-              I am a final-year international undergraduate student in Computer Science, passionate about cybersecurity and software engineering. 
-              I am dedicated to entering the workforce for professional growth and providing quality products and services. I aim to contribute to the company's goals through my skills, enthusiasm, and discipline.
-            </p>
+            <div className='home-text flex flex-row gap-0.5 '>
+              <span ref={el}/>
+            </div>
+            
 
             <div className='social-media gap-3'>
               <a href="mailto:alexanderwillyj@gmail.com" target ='_blank' rel="noopener noreferrer">
