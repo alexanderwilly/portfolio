@@ -3,7 +3,7 @@ import { useRef, useEffect} from 'react';
 
 import './App.css';
 import Navbar from './props/navbar';
-import home_img from './props/img/home_pic.jpg';
+import home_img from './props/img/home_pic.png';
 import pic1 from './props/img/pic1.jpg';
 // import pic2 from './props/img/pic2.jpg';
 import download_icon from './props/img/download_icon.png';
