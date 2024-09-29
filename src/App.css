@@ -14,6 +14,8 @@ section{
   justify-content: center;
   background: #0e192b;
   color: white;
+  box-shadow: 0px 10px 25px 0px black;
+  
 }
 
 section:nth-child(odd){
@@ -85,6 +87,14 @@ section:nth-child(odd){
 }
 
 /* About Section */
+.about-text-container h1{
+  text-shadow: 0 0 3px black;
+}
+
+.about .home-pic img{
+  box-shadow: 0px 10px 25px 0px black;
+
+}
 
 
 

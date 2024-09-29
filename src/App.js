@@ -35,10 +35,10 @@ const App = () => {
       <Navbar />
 
       {/* Home */}
-      <section id = "home" className = "home">
+      <section id = "home" className = "home shadow">
         {/* Home Picture */}
         <div className='home-pic justify-center'>
-          <img src = {home_img} alt = "home_img" className = "rounded-2xl" />
+          <img src = {home_img} alt = "home_img" />
         </div>
         
         {/* Home Info */}
