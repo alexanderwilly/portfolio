@@ -20,8 +20,8 @@ section:nth-child(odd){
   background: #142745;
 }
 
-
-.home div{
+/* Home Section */
+.home div, .about div{
   width: 50%;
   display: flex;
   align-items: center;
@@ -84,6 +84,13 @@ section:nth-child(odd){
   box-shadow: 0 0 8px 0 white;
 }
 
+/* About Section */
+
+
+
+
+
+
 @media only screen and (max-width:1096px) {
   .home-info h1{
     font-size: 48px;
@@ -127,37 +134,33 @@ section:nth-child(odd){
     width: 100%;
     justify-content: center;
   }
+
+  .about{
+    flex-direction:column-reverse;
+    align-items: center;
+  }
+
+  .about div{
+    width: 100%;
+  }
+
+  .about-text-container{
+    padding: 0;
+    padding-top: 2.5vh;
+    padding-bottom: 5vh;
+  }
+
+  .about-text-container > span{
+    padding-top: 2.5vh;
+    font-size: 16px;
+
+  }
+
+  .about-text{
+    width: 75%;
+  }
+
 }
-
-/* @media only screen and (max-width: 853px) {
-  .home {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.25rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-  .home div{
-    width: 100%;
-    align-items: center;
-  }
-  .home-text span{
-    text-align: center;
-  }
-
-  .home h1{
-    text-align: center;
-  }
-
-  .home-pic img{
-    height: 45vh;
-  }
-
-  .social-media{
-    width: 100%;
-    justify-content: center;
-  }
-} */
 
 @media only screen and (max-width:480px) {
   .home-pic img{
