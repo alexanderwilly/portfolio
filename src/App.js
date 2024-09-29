@@ -8,7 +8,6 @@ import pic1 from './props/img/pic1.jpg';
 // import pic2 from './props/img/pic2.jpg';
 import download_icon from './props/img/download_icon.png';
 import email_icon from './props/img/mail_icon.png';
-import whatsapp_icon from './props/img/whatsapp_icon.png';
 import linkedin_icon from './props/img/linkedin_icon.png';
 import github_icon from './props/img/github_icon.png';
 
@@ -58,9 +57,6 @@ const App = () => {
             <div className='social-media gap-3'>
               <a href="mailto:alexanderwillyj@gmail.com" target ='_blank' rel="noopener noreferrer">
                 <img src = {email_icon} alt='email_icon'/>
-              </a>
-              <a href="https://wa.me/86570395" target ='_blank' rel="noopener noreferrer">
-                <img src = {whatsapp_icon} alt='whatsapp_icon'/>
               </a>
               <a href="https://www.linkedin.com/in/alexanderwillyj/" target ='_blank' rel="noopener noreferrer">
                 <img src = {linkedin_icon} alt='linkedin_icon'/>
