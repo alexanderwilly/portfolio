@@ -192,12 +192,91 @@ section:nth-child(odd){
   font-weight: 500;
 }
 
-.certs div h6{
+.certs div h6, .projects div h6{
   text-align: center;
   font-size: 12px;
 }
 
+/* Project Section */
+.projects > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 85%;
+}
 
+.projects div > div{
+  background-color: white;
+  padding: 2.5rem;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  transition: 0.5s;
+  
+}
+
+.projects img{
+  height: 35vh;
+  width: 100%;
+  border: black 2px solid;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.projects div h1{
+  padding: 8px 8px 0 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.projects div p{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.projects div div div{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  height: 0;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+
+.projects > div > div:hover{
+  transition: 0.5s;
+  box-shadow: 0px 15px 25px 0px black;
+}
+
+.projects a{
+  background-color: #357bf7;
+  padding: 6px 12px 6px 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.5s;
+  width: 150px;
+  text-align: center;
+}
+
+.projects a:hover{
+  background-color: #60a5fa;
+  transition: 0.5s;
+}
+
+ 
 
 
 
@@ -316,8 +395,31 @@ section:nth-child(odd){
     padding-top: 1vh;
   }
 
+  
 
+  .projects img{
+    height: 35vh;
+  }
 
+  .projects div > div{
+    width: 80%;
+    
+  }
+
+  
+}
+
+@media only screen and (max-width:550px){
+
+  .projects a{
+    font-size: 10px;
+  }
+
+  .projects img{
+    height: 22.5vh;
+  }
+
+  
 }
 
 @media only screen and (max-width:480px) {
@@ -341,6 +443,30 @@ section:nth-child(odd){
   .home-text span{
     font-size: 18px;
   }
+
+  .projects img{
+    height: 25vh;
+  }
+
+  .projects div h1{
+    font-size: 1.25rem;
+  }
+
+  .projects div p{
+    font-size: 10px;
+  }
+
+  .projects div div div{
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .projects img{
+    height: 15vh;
+  }
+
+  
+
   
 }
 

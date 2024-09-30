@@ -1,21 +1,28 @@
 import Typed from 'typed.js';
 import { useRef, useEffect} from 'react';
-
 import './App.css';
 import Navbar from './props/navbar';
+
 import home_img from './props/img/home_pic.png';
 import pic1 from './props/img/pic1.jpg';
-// import pic2 from './props/img/pic2.jpg';
 import download_icon from './props/img/download_icon.png';
-import email_icon from './props/img/mail_icon.png';
-import linkedin_icon from './props/img/linkedin_icon.png';
-import github_icon from './props/img/github_icon.png';
-import uow_logo from './props/img/uow_logo.png';
-import simge_logo from './props/img/simge_logo.png';
-import icdl_ai from './props/img/icdl_ai.png';
-import icdl_iot from './props/img/icdl_iot.png';
-import icdl_big_data from './props/img/icdl_big_data.png';
-import cc from './props/img/cc.png';
+// Social Media
+import email_icon from './props/img/social_media/mail_icon.png';
+import linkedin_icon from './props/img/social_media/linkedin_icon.png';
+import github_icon from './props/img/social_media/github_icon.png';
+// Education
+import uow_logo from './props/img/education/uow_logo.png';
+import simge_logo from './props/img/education/simge_logo.png';
+// Certifications
+import icdl_ai from './props/img/certificates/icdl_ai.png';
+import icdl_iot from './props/img/certificates/icdl_iot.png';
+import icdl_big_data from './props/img/certificates/icdl_big_data.png';
+import cc from './props/img/certificates/cc.png';
+// Projects
+import activeaxis from './props/img/projects/activeaxis.jpg';
+import cafe from './props/img/projects/cafe.jpg';
+import portfolio from './props/img/projects/portfolio.jpg';
+
 
 const App = () => {
   const el = useRef(null);
@@ -37,7 +44,7 @@ const App = () => {
   }, []);
   
   return (
-    <body>
+    <div>
       <Navbar />
 
       {/* Home */}
@@ -109,6 +116,7 @@ const App = () => {
         </div>
       </section>
 
+      {/* Education */}
       <section id = "edu" className = "edu flex flex-col items-center gap-5">
         <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
           &nbsp;EDUCATION&nbsp;
@@ -142,6 +150,7 @@ const App = () => {
         </div>
       </section>
 
+      {/* Certifications */}
       <section id = "certs" className = "certs flex flex-col items-center gap-5 py-5">
         <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
           &nbsp;CERTIFICATIONS&nbsp;
@@ -169,12 +178,47 @@ const App = () => {
           </div>
         </div>
       </section>
-      <section id = "projects">PROJECTS</section>
+
+      {/* Projects */}
+      <section id = "projects" className="projects flex flex-col items-center gap-5 py-5">
+        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+          &nbsp;PROJECTS&nbsp;
+        </h1>
+
+        <div>
+          <div>
+            <img src = {activeaxis} alt = "activeaxis" />
+            <h1>ActiveAxis</h1>
+            <p>A mobile application for fitness and health that allows users to monitor fitness metrics, including total calories burned, steps, distance traveled, and heart rate.</p>
+            <div>
+              <a href="https://alexanderwillyj.wixstudio.io/activeaxis" target ='_blank' rel="noopener noreferrer" >Marketing Website</a>
+              <a href="https://github.com/ajjang001/ActiveAxis" target ='_blank' rel="noopener noreferrer">Code Repository</a>
+            </div>
+          </div>
+          <div>
+            <img src = {cafe} alt = "cafe" />
+            <h1>Cafe Staff Management System</h1>
+            <p>A system that supports Cafe owners in viewing and managing Cafe work slots, supports cafe staff in bidding for work slots and the cafe role, and supports cafe managers in reviewing and managing cafe staff and their work slot bids.</p>
+            <div>
+              <a href ="https://drive.google.com/file/d/1damated-moMx3ZgxNKLbZZIdq7U1VlO0/view?usp=sharing" target ='_blank' rel="noopener noreferrer">Demo Video</a>
+            </div>
+          </div>
+          <div>
+            <img src = {portfolio} alt = "portfolio" />
+            <h1>Personal Portfolio</h1>
+            <p>A personal portfolio website, using React JS and Tailwind CSS, to showcase my resume, education, certifications, and projects.</p>
+            <div>
+              <a href="https://github.com/alexanderwilly/portfolio" target ='_blank' rel="noopener noreferrer">Code Repository</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
       <section id = "skills">SKILLS</section>
       <section id = "contact">CONTACT</section>
       
       
-    </body>
+    </div>
   );
 }
 
