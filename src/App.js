@@ -22,10 +22,65 @@ import cc from './props/img/certificates/cc.png';
 import activeaxis from './props/img/projects/activeaxis.jpg';
 import cafe from './props/img/projects/cafe.jpg';
 import portfolio from './props/img/projects/portfolio.jpg';
+// Skills
+import java from './props/img/skills/lang/java.png';
+import python from './props/img/skills/lang/python.png';
+import cpp from './props/img/skills/lang/Cpp.png';
+import html from './props/img/skills/lang/html.png';
+import css from './props/img/skills/lang/css.png';
+import js from './props/img/skills/lang/js.png';
+import php from './props/img/skills/lang/php.png';
+import react_native from './props/img/skills/lang/react-native.png';
+import reactjs from './props/img/skills/lang/reactjs.png';
+import nodejs from './props/img/skills/lang/nodejs.png';
+import expressjs from './props/img/skills/lang/expressjs.png';
+import tailwind from './props/img/skills/lang/tailwind.png';
+import sql from './props/img/skills/db/sql.png';
+import mongodb from './props/img/skills/db/mongodb.png';
+import firebase from './props/img/skills/db/firebase.png';
+import waterfall from './props/img/skills/methodology/waterfall.png';
+import scrum from './props/img/skills/methodology/scrum.png';
+import kanban from './props/img/skills/methodology/kanban.png';
+import github from './props/img/skills/methodology/github.png';
+import gitlab from './props/img/skills/methodology/gitlab.png';
+import taiga from './props/img/skills/methodology/taiga.png';
+  
 
 
 const App = () => {
   const el = useRef(null);
+
+  let languages = new Map([
+    ['Java', java ],
+    ['Python', python ],
+    ['C++', cpp ],
+    ['HTML', html ],
+    ['CSS', css ],
+    ['JavaScript', js ],
+    ['PHP', php ],
+    ['React Native', react_native ],
+    ['React JS', reactjs ],
+    ['Node JS', nodejs ],
+    ['Express JS', expressjs ],
+    ['Tailwind CSS', tailwind ],
+  ]);
+
+  let database = new Map([
+    ['SQL', sql ],
+    ['MongoDB', mongodb ],
+    ['Firebase NoSQL', firebase ],
+  ]);
+
+  let methodology = new Map([
+    ['Waterfall', waterfall ],
+    ['Scrum', scrum ],
+    ['Kanban', kanban ],
+    ['GitHub', github ],
+    ['GitLab', gitlab ],
+    ['Taiga.io', taiga ],
+  ]);
+
+
 
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -212,9 +267,53 @@ const App = () => {
             </div>
           </div>
         </div>
-
       </section>
-      <section id = "skills">SKILLS</section>
+
+      <section id = "skills" className="skills flex flex-col items-center gap-5 py-5">
+        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+          &nbsp;SKILLS&nbsp;
+        </h1>
+        <div>
+          <h2>Programming Languages and Frameworks</h2>
+          <div>
+            {
+              Array.from(languages).map(([name, img]) =>(
+                <div key = {name}>
+                  <img src = {img} alt = {name} />
+                  <h1>{name}</h1>
+                </div>
+              )) 
+            }
+          </div>
+        </div>
+        <div>
+          <h2>Database</h2>
+          <div>
+            {
+              Array.from(database).map(([name, img]) =>(
+                <div key = {name}>
+                  <img src = {img} alt = {name} />
+                  <h1>{name}</h1>
+                </div>
+              )) 
+            }
+          </div>
+        </div>
+        <div>
+          <h2>Project Development Methodology and Tools</h2>
+          <div>
+            {
+              Array.from(methodology).map(([name, img]) =>(
+                <div key = {name}>
+                  <img src = {img} alt = {name} />
+                  <h1>{name}</h1>
+                </div>
+              )) 
+            }
+          </div>
+        </div>
+      </section>
+
       <section id = "contact">CONTACT</section>
       
       
