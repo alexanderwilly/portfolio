@@ -10,6 +10,8 @@ import download_icon from './props/img/download_icon.png';
 import email_icon from './props/img/mail_icon.png';
 import linkedin_icon from './props/img/linkedin_icon.png';
 import github_icon from './props/img/github_icon.png';
+import uow_logo from './props/img/uow_logo.png';
+import simge_logo from './props/img/simge_logo.png';
 
 const App = () => {
   const el = useRef(null);
@@ -79,7 +81,9 @@ const App = () => {
       {/* About */}
       <section id = "about" className = "about">
         <div className = 'about-text-container flex-col pl-28 py-36 '>
-          <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider">ABOUT ME</h1>
+          <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+          &nbsp;ABOUT ME&nbsp;
+          </h1>
           
           <span className = "about-text pt-16 flex flex-col">
             <span>My name is <strong>Alexander Willy Johan</strong>.</span><br/>
@@ -101,7 +105,39 @@ const App = () => {
         </div>
       </section>
 
-      <section id = "edu">EDUCATION</section>
+      <section id = "edu" className = "edu flex flex-col items-center gap-5">
+        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+          &nbsp;EDUCATION&nbsp;
+        </h1>
+        <div>
+          <div>
+            <img src = {uow_logo} alt = "uow_logo" />
+          </div>
+          <span>
+            <h1>UNIVERSITY OF WOLLONGONG</h1>
+            <h6>Oct 2022 - Dec 2024 <strong>(Expected)</strong></h6>
+            <h3>Bachelor of Computer Science (Cyber Security)</h3>
+            <ul>
+              <li>Current equivalent GPA: 3.86/4.00</li>
+            </ul>
+          </span>
+        </div>
+        <div>
+          <div>
+            <img src = {simge_logo} alt = "simge_logo" />
+          </div>
+          <span>
+            <h1>SINGAPORE INSTITUTE OF MANAGEMENT</h1>
+            <h6>Oct 2021 - Sep 2022</h6>
+            <h3>Diploma in Information Technology</h3>
+            <ul>
+              <li>GPA: 3.88/4.00</li>
+              <li>Recipient of the Commendation Award for excellent academic performance</li>
+            </ul>
+          </span>
+        </div>
+      </section>
+
       <section id = "certs">CERTIFICATIONS</section>
       <section id = "projects">PROJECTS</section>
       <section id = "skills">SKILLS</section>

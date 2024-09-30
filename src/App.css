@@ -65,7 +65,6 @@ section:nth-child(odd){
 }
 
 .social-media a:hover{
-  transform: scale(1.1);
   transition: 0.5s;
 }
 
@@ -96,18 +95,78 @@ section:nth-child(odd){
 
 }
 
+/* Education Section */
+.edu > div{
+  background-color: #1c2b4d;
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  transition: 0.5s;
+}
+
+.edu > div:hover{
+  box-shadow: 0px 10px 25px 0px black;
+  transition: 0.5s;
+}
+
+
+.edu img{
+  height: 25vh;
+  border: 2px solid black;
+  box-shadow: 0px 2px 5px 0px black;
+}
+
+.edu span{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem 0 2rem;
+
+}
+
+.edu span h1{
+  font-size: 1.5rem;
+  color: #3b82f6;
+  font-weight: 500;
+}
+
+.edu h6{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.edu h3{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.edu ul{
+  list-style-type: disc;
+  padding: 0 1rem 0 1rem;
+}
+
+.edu li{
+  font-size: 14px;
+  font-weight: 400;
+}
 
 
 
 
 
-@media only screen and (max-width:1096px) {
+
+@media only screen and (max-width:1168px) {
   .home-info h1{
     font-size: 48px;
   }
 
   .home-info {
     padding-left: 1rem;
+  }
+
+  .edu span h1{
+    font-size: 1.25rem;
   }
 
 }
@@ -169,6 +228,47 @@ section:nth-child(odd){
   .about-text{
     width: 75%;
   }
+
+  
+
+
+  
+  .edu{
+    padding: 4vh 0 4vh 0;
+  }
+  
+  .edu img{
+    height: 25vh;
+    width: 25vh;
+  }
+  .edu div div{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .edu span{
+    padding: 0.5rem 0 0.5rem 0;
+  }
+
+  .edu > div{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edu span h1{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .edu h6{
+    text-align: center;
+  }
+  
+  .edu h3{
+    padding-top: 1vh;
+  }
+
+
 
 }
 
