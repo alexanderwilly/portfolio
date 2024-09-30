@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c5f1851.css",
-    "main.js": "/portfolio/static/js/main.143dbfd6.js",
+    "main.css": "/portfolio/static/css/main.11cf17b6.css",
+    "main.js": "/portfolio/static/js/main.d6599a31.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/home_pic.png": "/portfolio/static/media/home_pic.cebfa30adf339165c2c2.png",
     "static/media/pic1.jpg": "/portfolio/static/media/pic1.a6c98815ac1b26b0e334.jpg",
     "static/media/logo.png": "/portfolio/static/media/logo.8e1b2e4c1750ad245b15.png",
+    "static/media/cc.png": "/portfolio/static/media/cc.d0c29704689a0c6af6e8.png",
     "static/media/uow_logo.png": "/portfolio/static/media/uow_logo.fc5f9289bb36a52d68b6.png",
+    "static/media/icdl_ai.png": "/portfolio/static/media/icdl_ai.25c4c58ca7a810c95b50.png",
+    "static/media/icdl_big_data.png": "/portfolio/static/media/icdl_big_data.ccb6670bbce1051bdf64.png",
+    "static/media/icdl_iot.png": "/portfolio/static/media/icdl_iot.86535b8bda89dd38c670.png",
     "static/media/github_icon.png": "/portfolio/static/media/github_icon.2f7389113b9eb96deaec.png",
     "index.html": "/portfolio/index.html",
-    "main.4c5f1851.css.map": "/portfolio/static/css/main.4c5f1851.css.map",
-    "main.143dbfd6.js.map": "/portfolio/static/js/main.143dbfd6.js.map",
+    "main.11cf17b6.css.map": "/portfolio/static/css/main.11cf17b6.css.map",
+    "main.d6599a31.js.map": "/portfolio/static/js/main.d6599a31.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c5f1851.css",
-    "static/js/main.143dbfd6.js"
+    "static/css/main.11cf17b6.css",
+    "static/js/main.d6599a31.js"
   ]
 }
