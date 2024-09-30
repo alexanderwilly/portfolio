@@ -12,6 +12,10 @@ import linkedin_icon from './props/img/linkedin_icon.png';
 import github_icon from './props/img/github_icon.png';
 import uow_logo from './props/img/uow_logo.png';
 import simge_logo from './props/img/simge_logo.png';
+import icdl_ai from './props/img/icdl_ai.png';
+import icdl_iot from './props/img/icdl_iot.png';
+import icdl_big_data from './props/img/icdl_big_data.png';
+import cc from './props/img/cc.png';
 
 const App = () => {
   const el = useRef(null);
@@ -138,7 +142,33 @@ const App = () => {
         </div>
       </section>
 
-      <section id = "certs">CERTIFICATIONS</section>
+      <section id = "certs" className = "certs flex flex-col items-center gap-5 py-5">
+        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+          &nbsp;CERTIFICATIONS&nbsp;
+        </h1>
+        <div>
+          <div>
+            <img src = {cc} alt = "cc" />
+            <h1>ISC2 Certified in Cybersecurity</h1>
+            <h6>Issued Jun 2024</h6>
+          </div>
+          <div>
+            <img src = {icdl_ai} alt = "icdl_ai" />
+            <h1>ICDL Artificial Intelligence</h1>
+            <h6>Issued Dec 2023</h6>
+          </div>
+          <div>
+            <img src = {icdl_big_data} alt = "icdl_big_data" />
+            <h1>ICDL Big Data</h1>
+            <h6>Issued Dec 2023</h6>
+          </div>
+          <div>
+            <img src = {icdl_iot} alt = "icdl_iot" />
+            <h1>ICDL Internet of Things</h1>
+            <h6>Issued Dec 2023</h6>
+          </div>
+        </div>
+      </section>
       <section id = "projects">PROJECTS</section>
       <section id = "skills">SKILLS</section>
       <section id = "contact">CONTACT</section>
