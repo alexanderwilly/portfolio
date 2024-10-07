@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f7add667.css",
-    "main.js": "/portfolio/static/js/main.d11c0b95.js",
+    "main.css": "/portfolio/static/css/main.2da5f45a.css",
+    "main.js": "/portfolio/static/js/main.3f889590.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/home_pic.png": "/portfolio/static/media/home_pic.cebfa30adf339165c2c2.png",
     "static/media/python.png": "/portfolio/static/media/python.c44b9b809ebf766cbb4f.png",
@@ -15,6 +15,7 @@
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.d980d9636ace07ad3dde.png",
     "static/media/pic1.jpg": "/portfolio/static/media/pic1.a6c98815ac1b26b0e334.jpg",
     "static/media/java.png": "/portfolio/static/media/java.fdabd4e11f1235e4e8e0.png",
+    "static/media/pic2.jpg": "/portfolio/static/media/pic2.8cd9e2826db5f673cf88.jpg",
     "static/media/cafe.jpg": "/portfolio/static/media/cafe.bb77a4f4bf47eb15ecc1.jpg",
     "static/media/css.png": "/portfolio/static/media/css.bee63b9e863f48d93bda.png",
     "static/media/Cpp.png": "/portfolio/static/media/Cpp.053a898d752aef72651e.png",
@@ -32,12 +33,12 @@
     "static/media/github_icon.png": "/portfolio/static/media/github_icon.2f7389113b9eb96deaec.png",
     "static/media/scrum.png": "/portfolio/static/media/scrum.7d7a6673b07384b0aaca.png",
     "index.html": "/portfolio/index.html",
-    "main.f7add667.css.map": "/portfolio/static/css/main.f7add667.css.map",
-    "main.d11c0b95.js.map": "/portfolio/static/js/main.d11c0b95.js.map",
+    "main.2da5f45a.css.map": "/portfolio/static/css/main.2da5f45a.css.map",
+    "main.3f889590.js.map": "/portfolio/static/js/main.3f889590.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7add667.css",
-    "static/js/main.d11c0b95.js"
+    "static/css/main.2da5f45a.css",
+    "static/js/main.3f889590.js"
   ]
 }
