@@ -100,8 +100,10 @@ const App = () => {
             <h1 className = "text-6xl">WELCOME!</h1>
             <h1 className = "text-6xl text-blue-500">I'M ALEXANDER</h1>
 
-            <div className='home-text flex flex-row gap-0.5 '>
+            <div className='home-text'>
               
+              <span>Application Developer | Software Engineer | Cybersecurity</span>
+
             </div>
             
             
@@ -287,12 +289,12 @@ const App = () => {
       </section>
 
       {/* Contact */}
-      <section class = "contact" id = "contact">
+      <section className = "contact" id = "contact">
         <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
           &nbsp;CONTACT ME&nbsp;
         </h1>
         
-        <div class = "contact-container w-full">
+        <div className = "contact-container w-full">
           <div className='social-media'>
             <a href="mailto:alexanderwillyj@gmail.com" rel="noopener noreferrer">
               <img src = {email_icon} alt='email_icon'/>
