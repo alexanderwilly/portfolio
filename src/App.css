@@ -1,132 +1,196 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
 }
 
-section{
+section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   background: #0e192b;
   color: white;
   box-shadow: 0px 10px 25px 0px black;
-  
 }
 
-section:nth-child(odd){
+section:nth-child(odd) {
   background: #142745;
 }
 
 /* Home Section */
-.home div, .about div{
+.home div,
+.about div {
   width: 50%;
   display: flex;
   align-items: center;
 }
 
-.home-pic img{
+.home-pic img {
   height: 75vh;
   margin-top: 32px;
+  animation: slide_up 1.5s ease;
 }
 
-.home-info div{
+@keyframes slide_up {
+  0% {
+    transform: translateY(15%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.home-info div {
   align-items: flex-start;
   width: 90%;
+  animation: slide_right 1.5s ease;
 }
 
-.home-info h5{
+@keyframes slide_right {
+  0% {
+    transform: translateX(-5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.home-info h5 {
   background-color: #1c2b4d;
   letter-spacing: 1px;
 }
 
-.home-text span{
+.home-text span {
   font-size: 1.2rem;
   line-height: 2rem;
-  
 }
-
-.typed-cursor {
-  font-size: 1.5rem;
-}
-
-.cv-btn {
-  background-color: #357bf7;
-}
-
-
-
-
 
 /* About Section */
-.about-text-container h1{
+.about-text-container h1 {
   text-shadow: 0 0 3px black;
 }
 
-.about .home-pic img{
+.about .home-pic img {
   box-shadow: 0px 10px 25px 0px black;
+}
 
+/* Experience Section */
+.exp {
+  justify-content: flex-start;
+  padding: 12vh 0;
+}
+
+.exp > div {
+  background-color: #0e192b;
+  padding: 1.5rem 2.5rem;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+
+.exp img {
+  height: 25vh;
+  border: 2px solid black;
+  box-shadow: 0px 2px 5px 0px black;
+}
+
+.exp span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  width: 75%;
+}
+
+.exp span h1 {
+  font-size: 1.5rem;
+  color: #ffd726;
+  font-weight: 500;
+}
+
+.exp h6 {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.exp h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #357bf7;
+}
+
+.exp ul {
+  list-style-type: disc;
+  padding: 0 1rem 0 1rem;
+}
+
+.exp li {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Education Section */
-.edu > div{
-  background-color: #0e192b;
-  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+.edu > div {
+  background-color: #1c2b4d;
+  padding: 1.5rem 2.5rem;
   width: 75%;
   display: flex;
   flex-direction: row;
   transition: 0.5s;
 }
 
-
-
-.edu img{
+.edu img {
   height: 25vh;
   border: 2px solid black;
   box-shadow: 0px 2px 5px 0px black;
 }
 
-.edu span{
+.edu span {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 0 2rem 0 2rem;
-
 }
 
-.edu span h1{
+.edu span h1 {
   font-size: 1.5rem;
-  color: #3b82f6;
+  color: #ffd726;
   font-weight: 500;
 }
 
-.edu h6{
+.edu h6 {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
-.edu h3{
+.edu h3 {
   font-size: 1rem;
   font-weight: 500;
+  color: #357bf7;
 }
 
-.edu ul{
+.edu ul {
   list-style-type: disc;
   padding: 0 1rem 0 1rem;
 }
 
-.edu li{
+.edu li {
   font-size: 14px;
   font-weight: 400;
 }
 
-
 /* Certifications */
-.certs > div{
+.certs > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,8 +199,8 @@ section:nth-child(odd){
   width: 75%;
 }
 
-.certs div div{
-  background-color: #142745;
+.certs div div {
+  background-color: #0e192b;
   padding: 1.5rem;
   color: black;
   border-radius: 10px;
@@ -147,30 +211,30 @@ section:nth-child(odd){
   transition: 0.5s;
 }
 
-
-.certs img{
+.certs img {
   height: 20vh;
   background-color: white;
 }
 
-.certs div h1{
+.certs div h1 {
   border-top: 2px solid white;
   padding: 8px 8px 0 8px;
   margin-top: 8px;
   width: 100%;
   text-align: center;
   font-weight: 500;
-  color: white;
+  color: #357bf7;
 }
 
-.certs div h6, .projects div h6{
+.certs div h6,
+.projects div h6 {
   text-align: center;
   font-size: 12px;
   color: white;
 }
 
 /* Project Section */
-.projects > div{
+.projects > div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,8 +243,8 @@ section:nth-child(odd){
   width: 85%;
 }
 
-.projects div > div{
-  background-color: #0e192b;
+.projects div > div {
+  background-color: #1c2b4d;
   padding: 2.5rem;
   color: white;
   border-radius: 10px;
@@ -188,11 +252,11 @@ section:nth-child(odd){
   flex-direction: column;
   align-items: center;
   width: 600px;
+  height: 525px;
   transition: 0.5s;
-  
 }
 
-.projects img{
+.projects img {
   height: 35vh;
   width: 100%;
   border: white 2px solid;
@@ -200,20 +264,22 @@ section:nth-child(odd){
   border-radius: 10px;
 }
 
-.projects div h1{
+.projects div h1 {
   padding: 8px 8px 0 8px;
   width: 100%;
   text-align: center;
   font-weight: 500;
   font-size: 1.5rem;
+  color: #ffd726;
 }
 
-.projects div p{
+.projects div p {
   font-size: 14px;
   font-weight: 400;
+  height: 75px;
 }
 
-.projects div div div{
+.projects div div div {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -226,8 +292,7 @@ section:nth-child(odd){
   padding-bottom: 10px;
 }
 
-
-.projects a{
+.projects a {
   background-color: #357bf7;
   padding: 6px 12px 6px 12px;
   border-radius: 5px;
@@ -239,21 +304,20 @@ section:nth-child(odd){
   text-align: center;
 }
 
-.projects a:hover{
+.projects a:hover {
   background-color: #60a5fa;
   transition: 0.5s;
 }
 
- 
 /* Skills */
-.skills > div{
+.skills > div {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   width: 85%;
 }
 
-.skills > div > div{
+.skills > div > div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -261,8 +325,8 @@ section:nth-child(odd){
   gap: 1rem;
 }
 
-.skills > div > div > div{
-  background-color: #142745;
+.skills > div > div > div {
+  background-color: #0e192b;
   width: 175px;
   height: 30vh;
   display: flex;
@@ -273,8 +337,7 @@ section:nth-child(odd){
   border-radius: 10px;
 }
 
-
-.skills img{
+.skills img {
   height: 5px;
   border: 2px solid white;
   background-color: white;
@@ -282,56 +345,53 @@ section:nth-child(odd){
   transition: 0.5s;
   margin: 1rem;
 
-  
   height: 125px;
-  
+
   border-radius: 10px;
 }
 
 .skills > div h1 {
-  color: white;
-}
-
-.skills > div > h2{
-  color: white;
+  color: #ffd726;
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
   padding-top: 1rem;
 }
 
+.skills > div h2 {
+  color: white;
+}
+
 /* Contact */
-.contact{
+.contact {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.contact-container{
+.contact-container {
   display: flex;
   align-items: center;
 }
 
-.contact-container div{
+.contact-container div {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-
-.social-media{
+.social-media {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.social-media a:hover{
+.social-media a:hover {
   transition: 0.5s;
 }
 
-.social-media a{
+.social-media a {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -341,8 +401,7 @@ section:nth-child(odd){
   font-size: 1.2rem;
 }
 
-
-.social-media img{
+.social-media img {
   width: 2.5rem;
   border: 2px solid white;
   border-radius: 50%;
@@ -350,15 +409,15 @@ section:nth-child(odd){
   transition: 0.5s;
 }
 
-.social-media img:hover{
+.social-media img:hover {
   box-shadow: 0 0 8px 0 white;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0e192b;
+  background-color: #06090e;
   color: white;
   height: 10vh;
   font-size: 1rem;
@@ -366,14 +425,8 @@ footer{
   padding-bottom: 1.5rem;
 }
 
-
-
-
-
-
-
-@media only screen and (max-width:1168px) {
-  .home-info h1{
+@media only screen and (max-width: 1168px) {
+  .home-info h1 {
     font-size: 48px;
   }
 
@@ -381,13 +434,13 @@ footer{
     padding-left: 1rem;
   }
 
-  .edu span h1{
+  .exp span h1,
+  .edu span h1 {
     font-size: 1.25rem;
   }
-
 }
 
-@media only screen and (max-width: 1024px) and (max-height:1400px){
+@media only screen and (max-width: 1024px) and (max-height: 1400px) {
   .home {
     flex-direction: column;
     align-items: center;
@@ -395,216 +448,198 @@ footer{
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-  .home div{
+  .home div {
     width: 100%;
     align-items: center;
   }
-  .home-text{
+  .home-text {
     justify-content: center;
   }
-  .home-text span{
+  .home-text span {
     text-align: center;
     font-size: 1.2rem;
     width: 90%;
   }
 
-  .home h1{
+  .home h1 {
     text-align: center;
   }
 
-  .home-pic img{
+  .home-pic img {
     height: 45vh;
   }
 
-  .social-media{
+  .social-media {
     width: 100%;
     justify-content: center;
   }
 
-  .about{
-    flex-direction:column-reverse;
+  .about {
+    flex-direction: column-reverse;
     align-items: center;
   }
 
-  .about div{
+  .about div {
     width: 100%;
   }
 
-  .about-text-container{
+  .about-text-container {
     padding: 0;
     padding-top: 2.5vh;
     padding-bottom: 5vh;
   }
 
-  .about-text-container > span{
+  .about-text-container > span {
     padding-top: 2.5vh;
     font-size: 16px;
-
   }
 
-  .about-text{
+  .about-text {
     width: 75%;
   }
 
-  
-
-
-  
-  .edu{
-    padding: 4vh 0 4vh 0;
+  .edu,
+  .exp {
+    padding: 4vh 0;
   }
-  
-  .edu img{
+
+  .edu img,
+  .exp img {
     height: 25vh;
     width: 25vh;
   }
-  .edu div div{
+  .edu div div,
+  .exp div div {
     display: flex;
     justify-content: center;
   }
-  
-  .edu span{
+
+  .edu span,
+  .exp span {
     padding: 0.5rem 0 0.5rem 0;
   }
 
-  .edu > div{
+  .edu > div {
     display: flex;
     flex-direction: column;
   }
-  
-  .edu span h1{
+
+  .exp > div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .edu span h1,
+  .exp span h1 {
     font-size: 1.5rem;
     text-align: center;
   }
-  
-  .edu h6{
+
+  .edu h6,
+  .exp h6 {
     text-align: center;
   }
-  
-  .edu h3{
+
+  .edu h3,
+  .exp h3 {
     padding-top: 1vh;
   }
 
-  
-
-  .projects img{
+  .projects img {
     height: 35vh;
   }
 
-  .projects div > div{
+  .projects div > div {
     width: 80%;
-    
   }
 
-  
-
-  .contact-container{
-    flex-direction: column-reverse;    
+  .contact-container {
+    flex-direction: column-reverse;
     gap: 2rem;
   }
 
-
-  .social-media a{
+  .social-media a {
     width: 100%;
     flex-direction: column;
     font-size: 1.5rem;
   }
 
-  .social-media img{
+  .social-media img {
     width: 4rem;
   }
-
-  
-
-  
 }
 
-
-@media only screen and (max-width:550px){
-
-  .projects a{
+@media only screen and (max-width: 550px) {
+  .projects a {
     font-size: 10px;
   }
 
-  .projects img{
+  .projects img {
     height: 22.5vh;
   }
 
-  .skills > div > h2{
+  .skills > div > h2 {
     font-size: 1.5rem;
   }
-  .skills > div > div > div{
+  .skills > div > div > div {
     width: 80%;
   }
-
-  
 }
 
-@media only screen and (max-width:480px) {
-  .home-pic img{
+@media only screen and (max-width: 480px) {
+  .home-pic img {
     height: 360px;
   }
 
-  .home-info{
+  .home-info {
     gap: 0.5rem;
   }
 
-  .home-info h5{
+  .home-info h5 {
     font-size: 8px;
     line-height: 16px;
   }
 
-  .home-info h1{
+  .home-info h1 {
     font-size: 38px;
   }
 
-  .home-text span{
+  .home-text span {
     font-size: 18px;
   }
 
-  .projects img{
+  .projects img {
     height: 25vh;
   }
 
-  .projects div h1{
+  .projects div h1 {
     font-size: 1.25rem;
   }
 
-  .projects div p{
+  .projects div p {
     font-size: 10px;
   }
 
-  .projects div div div{
+  .projects div div div {
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
   }
 
-  .projects img{
+  .projects img {
     height: 15vh;
   }
 
-  
-
-
-  .contact-container{    
+  .contact-container {
     gap: 1.5rem;
   }
 
-
-
-  .social-media a{
+  .social-media a {
     font-size: 1rem;
     gap: 0.5rem;
   }
 
-  .social-media img{
+  .social-media img {
     width: 2.5rem;
   }
-
-
-  
-
-  
 }
-
-

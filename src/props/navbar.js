@@ -16,6 +16,7 @@ export default function Navbar() {
         <div className = "flex content-center">
             <ul ref = {navRef}>
                 <li><a href = "#home">HOME</a></li>
+                <li><a href = "#exp">EXPERIENCE</a></li>
                 <li><a href = "#edu">EDUCATION</a></li>
                 <li><a href = "#certs">CERTIFICATIONS</a></li>
                 <li><a href = "#projects">PROJECTS</a></li>

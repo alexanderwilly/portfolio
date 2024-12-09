@@ -7,6 +7,8 @@ import pic1 from './props/img/pic1.jpg';
 import email_icon from './props/img/social_media/mail_icon.png';
 import linkedin_icon from './props/img/social_media/linkedin_icon.png';
 import github_icon from './props/img/social_media/github_icon.png';
+// Experience
+import trees_solutions from './props/img/experience/pt__trees_solutions_logo.jpeg'
 // Education
 import uow_logo from './props/img/education/uow_logo.png';
 import simge_logo from './props/img/education/simge_logo.png';
@@ -16,6 +18,7 @@ import icdl_iot from './props/img/certificates/icdl_iot.png';
 import icdl_big_data from './props/img/certificates/icdl_big_data.png';
 import cc from './props/img/certificates/cc.png';
 // Projects
+import petheaven from './props/img/projects/petheaven.jpg';
 import activeaxis from './props/img/projects/activeaxis.jpg';
 import cafe from './props/img/projects/cafe.jpg';
 import portfolio from './props/img/projects/portfolio.jpg';
@@ -110,11 +113,33 @@ const App = () => {
         </div>
       </section>
 
+      {/* Working Experience */}
+      <section id = "exp" className = "exp flex flex-col items-center gap-5 py-5">
+        <h1 className = "text-blue-200 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-200 text-center">
+          &nbsp;EXPERIENCE&nbsp;
+        </h1>
+
+        <div>
+          <span>
+            <h1>PT. TREES SOLUTIONS</h1>
+            <h6>Oct 2024 - Present</h6>
+            <h3>Cybersecurity Intern</h3>
+            <ul>
+              <li>Conducts vulnerability assessment and penetration testing on a web application and follows the OWASP Top 10: 2021 guidelines to identify security weaknesses.</li>
+            </ul>
+          </span>
+          <div>
+            <img src = {trees_solutions} alt = "trees_solutions" />
+          </div>
+          
+        </div>
+      </section>
+
 
       
       {/* Education */}
       <section id = "edu" className = "edu flex flex-col items-center gap-5">
-        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+        <h1 className = "text-blue-200 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-200">
           &nbsp;EDUCATION&nbsp;
         </h1>
         <div>
@@ -122,7 +147,7 @@ const App = () => {
             <img src = {uow_logo} alt = "uow_logo" />
           </div>
           <span>
-            <h1>UNIVERSITY OF WOLLONGONG</h1>
+            <h1>UNIVERSITY OF WOLLONGONG - SIM CAMPUS</h1>
             <h6>Oct 2022 - Dec 2024 <strong>(Expected)</strong></h6>
             <h3>Bachelor of Computer Science (Cyber Security)</h3>
             <ul>
@@ -148,7 +173,7 @@ const App = () => {
 
       {/* Certifications */}
       <section id = "certs" className = "certs flex flex-col items-center gap-5 py-5">
-        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+        <h1 className = "text-blue-200 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-200">
           &nbsp;CERTIFICATIONS&nbsp;
         </h1>
         <div>
@@ -176,12 +201,20 @@ const App = () => {
       </section>
 
       {/* Projects */}
-      <section id = "projects" className="projects flex flex-col items-center gap-5 py-5">
-        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+      <section id = "projects" className="projects flex flex-col items-center gap-5 py-14">
+        <h1 className = "text-blue-200 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-200">
           &nbsp;PROJECTS&nbsp;
         </h1>
 
         <div>
+          <div>
+            <img src = {petheaven} alt = "activeaxis" />
+            <h1>PetHeaven</h1>
+            <p>A website made with a React Single Page Application for pet adoption and animal welfare.</p>
+            <div>
+              <a href="https://github.com/alexanderwilly/PetHeaven" target ='_blank' rel="noopener noreferrer">Code Repository</a>
+            </div>
+          </div>
           <div>
             <img src = {activeaxis} alt = "activeaxis" />
             <h1>ActiveAxis</h1>
@@ -209,43 +242,43 @@ const App = () => {
       </section>
 
       <section id = "skills" className="skills flex flex-col items-center gap-5 py-5">
-        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+        <h1 className = "text-blue-200 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-200">
           &nbsp;SKILLS&nbsp;
         </h1>
         <div>
-          <h2>Programming Languages and Frameworks</h2>
+          <h1>Programming Languages and Frameworks</h1>
           <div>
             {
               Array.from(languages).map(([name, img]) =>(
                 <div key = {name}>
                   <img src = {img} alt = {name} />
-                  <h1>{name}</h1>
+                  <h2>{name}</h2>
                 </div>
               )) 
             }
           </div>
         </div>
         <div>
-          <h2>Database</h2>
+          <h1>Database</h1>
           <div>
             {
               Array.from(database).map(([name, img]) =>(
                 <div key = {name}>
                   <img src = {img} alt = {name} />
-                  <h1>{name}</h1>
+                  <h2>{name}</h2>
                 </div>
               )) 
             }
           </div>
         </div>
         <div>
-          <h2>Project Development Methodology and Tools</h2>
+          <h1>Project Development Methodology and Tools</h1>
           <div>
             {
               Array.from(methodology).map(([name, img]) =>(
                 <div key = {name}>
                   <img src = {img} alt = {name} />
-                  <h1>{name}</h1>
+                  <h2>{name}</h2>
                 </div>
               )) 
             }
@@ -255,7 +288,7 @@ const App = () => {
 
       {/* Contact */}
       <section className = "contact" id = "contact">
-        <h1 className = "text-blue-500 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-500">
+        <h1 className = "text-blue-200 text-4xl font-semibold tracking-wider pb-1 border-b-2 border-blue-200">
           &nbsp;CONTACT ME&nbsp;
         </h1>
         
