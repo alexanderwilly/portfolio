@@ -588,7 +588,7 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
-  .projects a {
+  .projects a, .projects button {
     font-size: 10px;
   }
 
