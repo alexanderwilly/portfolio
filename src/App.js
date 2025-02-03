@@ -240,7 +240,7 @@ const App = () => {
           <div>
             <img src = {cafe} alt = "cafe" />
             <h1>Cafe Staff Management System</h1>
-            <p>A system that supports Cafe owners in viewing and managing Cafe work slots, supports cafe staff in bidding for work slots and the cafe role, and supports cafe managers in reviewing and managing cafe staff and their work slot bids.</p>
+            <p>A system that manages Cafe staffs work slots, made with Java Graphical User Interface.</p>
             <div>
               <button disabled>Repository Not Available</button>
             </div>
