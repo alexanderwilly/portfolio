@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f1943a10.css",
-    "main.js": "/portfolio/static/js/main.7e40e35e.js",
+    "main.css": "/portfolio/static/css/main.6ebb55b9.css",
+    "main.js": "/portfolio/static/js/main.999033ae.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/home_pic.png": "/portfolio/static/media/home_pic.cebfa30adf339165c2c2.png",
     "static/media/python.png": "/portfolio/static/media/python.c44b9b809ebf766cbb4f.png",
@@ -9,7 +9,7 @@
     "static/media/petheaven.jpg": "/portfolio/static/media/petheaven.d8115f696438d86fc06a.jpg",
     "static/media/expressjs.png": "/portfolio/static/media/expressjs.6a3e055a6226b08114ef.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.d5e2cf21a856ddd0d659.png",
-    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.50bf725d689a8acc38b2.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.c539c43989f8d2d2e3e8.jpg",
     "static/media/sql.png": "/portfolio/static/media/sql.85fb38d6773862e917f4.png",
     "static/media/html.png": "/portfolio/static/media/html.dd273753240c22667862.png",
     "static/media/activeaxis.jpg": "/portfolio/static/media/activeaxis.31265d2695672b839634.jpg",
@@ -22,6 +22,7 @@
     "static/media/logo.png": "/portfolio/static/media/logo.8e1b2e4c1750ad245b15.png",
     "static/media/cc.png": "/portfolio/static/media/cc.d0c29704689a0c6af6e8.png",
     "static/media/reactjs.png": "/portfolio/static/media/reactjs.24fe83892f21dbf8b254.png",
+    "static/media/smu_logo.png": "/portfolio/static/media/smu_logo.0a64b0e2102bb048b4e8.png",
     "static/media/gitlab.png": "/portfolio/static/media/gitlab.6b5b326d0cd8f915ea23.png",
     "static/media/waterfall.png": "/portfolio/static/media/waterfall.fd12e8e3d3b83772d6c8.png",
     "static/media/react-native.png": "/portfolio/static/media/react-native.90fb0021be64f2b1ce7e.png",
@@ -33,12 +34,12 @@
     "static/media/github_icon.png": "/portfolio/static/media/github_icon.2f7389113b9eb96deaec.png",
     "static/media/scrum.png": "/portfolio/static/media/scrum.7d7a6673b07384b0aaca.png",
     "index.html": "/portfolio/index.html",
-    "main.f1943a10.css.map": "/portfolio/static/css/main.f1943a10.css.map",
-    "main.7e40e35e.js.map": "/portfolio/static/js/main.7e40e35e.js.map",
+    "main.6ebb55b9.css.map": "/portfolio/static/css/main.6ebb55b9.css.map",
+    "main.999033ae.js.map": "/portfolio/static/js/main.999033ae.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1943a10.css",
-    "static/js/main.7e40e35e.js"
+    "static/css/main.6ebb55b9.css",
+    "static/js/main.999033ae.js"
   ]
 }
