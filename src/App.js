@@ -10,6 +10,7 @@ import github_icon from './props/img/social_media/github_icon.png';
 // Experience
 import trees_solutions from './props/img/experience/pt__trees_solutions_logo.jpeg'
 // Education
+import smu_logo from './props/img/education/smu_logo.png';
 import uow_logo from './props/img/education/uow_logo.png';
 import simge_logo from './props/img/education/simge_logo.png';
 // Certifications
@@ -103,7 +104,7 @@ const App = () => {
 
             <div className='home-text'>
               
-              <span>Application Developer | Software Engineer | Cybersecurity</span>
+              <span>Software Engineer | Cybersecurity | Machine Learning</span>
 
             </div>
             
@@ -122,8 +123,8 @@ const App = () => {
         <div>
           <span>
             <h1>PT. TREES SOLUTIONS</h1>
-            <h6>Oct 2024 - Present</h6>
-            <h3>Cybersecurity Intern</h3>
+            <h6>Oct 2024 - Dec 2024</h6>
+            <h3>Functional Consultant Intern</h3>
             <ul>
               <li>Conducts vulnerability assessment and penetration testing on a web application and follows the OWASP Top 10: 2021 guidelines to identify security weaknesses.</li>
             </ul>
@@ -144,14 +145,27 @@ const App = () => {
         </h1>
         <div>
           <div>
+            <img src = {smu_logo} alt = "smu_logo" />
+          </div>
+          <span>
+            <h1>SINGAPORE MANAGEMENT UNIVERSITY</h1>
+            <h6>Jan 2025 - Apr 2026 <strong>(Expected)</strong></h6>
+            <h3>Master of IT in Business (Artificial Intelligence Track)</h3>
+            <ul>
+              <li>Recipient of the SMU PG ASEAN Scholarship</li>
+            </ul>
+          </span>
+        </div>
+        <div>
+          <div>
             <img src = {uow_logo} alt = "uow_logo" />
           </div>
           <span>
             <h1>UNIVERSITY OF WOLLONGONG - SIM CAMPUS</h1>
-            <h6>Oct 2022 - Dec 2024 <strong>(Expected)</strong></h6>
+            <h6>Oct 2022 - Dec 2024</h6>
             <h3>Bachelor of Computer Science (Cyber Security)</h3>
             <ul>
-              <li>Current equivalent GPA: 3.86/4.00</li>
+              <li>WAM: 84.31/100.00 (equivalent GPA: 3.85/4.00)</li>
             </ul>
           </span>
         </div>
@@ -228,6 +242,7 @@ const App = () => {
             <h1>Cafe Staff Management System</h1>
             <p>A system that supports Cafe owners in viewing and managing Cafe work slots, supports cafe staff in bidding for work slots and the cafe role, and supports cafe managers in reviewing and managing cafe staff and their work slot bids.</p>
             <div>
+              <button disabled>Repository Not Available</button>
             </div>
           </div>
           <div>
@@ -319,7 +334,7 @@ const App = () => {
       
       <footer>
         <div className='footer'>
-          <span>© 2024 Alexander Willy Johan</span>
+          <span>© 2025 Alexander Willy Johan</span>
         </div>
       </footer>
       

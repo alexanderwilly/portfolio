@@ -140,6 +140,10 @@ section:nth-child(odd) {
 }
 
 /* Education Section */
+.edu{
+  justify-content: flex-start;
+  padding: 12vh 0;
+}
 .edu > div {
   background-color: #1c2b4d;
   padding: 1.5rem 2.5rem;
@@ -153,6 +157,7 @@ section:nth-child(odd) {
   height: 25vh;
   border: 2px solid black;
   box-shadow: 0px 2px 5px 0px black;
+  background-color: white;
 }
 
 .edu span {
@@ -223,7 +228,7 @@ section:nth-child(odd) {
   width: 100%;
   text-align: center;
   font-weight: 500;
-  color: #357bf7;
+  color: #ffd726;
 }
 
 .certs div h6,
@@ -307,6 +312,18 @@ section:nth-child(odd) {
 .projects a:hover {
   background-color: #60a5fa;
   transition: 0.5s;
+}
+
+.projects button {
+  background-color: #4c4c4c;
+  padding: 6px 12px 6px 12px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.5s;
+  width: 220px;
+  text-align: center;
 }
 
 /* Skills */
@@ -577,6 +594,10 @@ footer {
 
   .projects img {
     height: 22.5vh;
+  }
+
+  .projects > div > div{
+    height: 50vh;
   }
 
   .skills > div > h2 {
