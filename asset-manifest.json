@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.16c4b8f7.css",
-    "main.js": "/portfolio/static/js/main.3a793036.js",
+    "main.js": "/portfolio/static/js/main.ca285ab8.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/home_pic.png": "/portfolio/static/media/home_pic.cebfa30adf339165c2c2.png",
     "static/media/python.png": "/portfolio/static/media/python.c44b9b809ebf766cbb4f.png",
@@ -9,9 +9,9 @@
     "static/media/petheaven.jpg": "/portfolio/static/media/petheaven.d8115f696438d86fc06a.jpg",
     "static/media/expressjs.png": "/portfolio/static/media/expressjs.6a3e055a6226b08114ef.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.d5e2cf21a856ddd0d659.png",
-    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.c539c43989f8d2d2e3e8.jpg",
     "static/media/sql.png": "/portfolio/static/media/sql.85fb38d6773862e917f4.png",
     "static/media/html.png": "/portfolio/static/media/html.dd273753240c22667862.png",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.bbc6e84ccec6c278912d.jpg",
     "static/media/activeaxis.jpg": "/portfolio/static/media/activeaxis.31265d2695672b839634.jpg",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.d980d9636ace07ad3dde.png",
     "static/media/java.png": "/portfolio/static/media/java.fdabd4e11f1235e4e8e0.png",
@@ -35,11 +35,11 @@
     "static/media/scrum.png": "/portfolio/static/media/scrum.7d7a6673b07384b0aaca.png",
     "index.html": "/portfolio/index.html",
     "main.16c4b8f7.css.map": "/portfolio/static/css/main.16c4b8f7.css.map",
-    "main.3a793036.js.map": "/portfolio/static/js/main.3a793036.js.map",
+    "main.ca285ab8.js.map": "/portfolio/static/js/main.ca285ab8.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16c4b8f7.css",
-    "static/js/main.3a793036.js"
+    "static/js/main.ca285ab8.js"
   ]
 }
