@@ -104,7 +104,8 @@ const App = () => {
 
             <div className='home-text'>
               
-              <span>Software Engineer | Cybersecurity | Machine Learning</span>
+              <span>
+              </span>
 
             </div>
             
