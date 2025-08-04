@@ -1,3 +1,5 @@
 # Alexander Willy Johan's Portfolio Website
 
-© 2024 Copyright: AlexanderWilly
+Link to website: <a href="https://alexanderwilly.github.io/portfolio/">https://alexanderwilly.github.io/portfolio/</a>
+
+&copy; 2025 Copyright: AlexanderWilly
