@@ -1,7 +1,5 @@
 import './App.css';
 import Navbar from './props/navbar';
-
-import pic1 from './props/img/pic1.jpg';
 // Social Media
 import email_icon from './props/img/social_media/mail_icon.png';
 import linkedin_icon from './props/img/social_media/linkedin_icon.png';
@@ -302,7 +300,7 @@ const App = () => {
           &nbsp;CONTACT ME&nbsp;
         </h1>
         
-        <div className = "contact-container w-full">
+        <div className = "contact-container w-full pt-16">
           <div className='social-media'>
             <a href="mailto:alexanderwillyj@gmail.com" rel="noopener noreferrer">
               <img src = {email_icon} alt='email_icon'/>
@@ -319,9 +317,6 @@ const App = () => {
           </div>
           
 
-          <div className='home-pic'>
-            <img src = {pic1} alt = "home_img"  />
-          </div>
         </div>
 
 
