@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5346d323.css",
-    "main.js": "/portfolio/static/js/main.85330519.js",
+    "main.js": "/portfolio/static/js/main.f3b5a97c.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/python.png": "/portfolio/static/media/python.c44b9b809ebf766cbb4f.png",
     "static/media/php.png": "/portfolio/static/media/php.aa680f57bf75b5d5acdc.png",
@@ -10,10 +10,10 @@
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.d5e2cf21a856ddd0d659.png",
     "static/media/sql.png": "/portfolio/static/media/sql.85fb38d6773862e917f4.png",
     "static/media/html.png": "/portfolio/static/media/html.dd273753240c22667862.png",
-    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.bbc6e84ccec6c278912d.jpg",
     "static/media/activeaxis.jpg": "/portfolio/static/media/activeaxis.31265d2695672b839634.jpg",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.d980d9636ace07ad3dde.png",
     "static/media/java.png": "/portfolio/static/media/java.fdabd4e11f1235e4e8e0.png",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.1a4272c3b7dfd9d7df8b.jpg",
     "static/media/cafe.jpg": "/portfolio/static/media/cafe.bb77a4f4bf47eb15ecc1.jpg",
     "static/media/css.png": "/portfolio/static/media/css.bee63b9e863f48d93bda.png",
     "static/media/Cpp.png": "/portfolio/static/media/Cpp.053a898d752aef72651e.png",
@@ -33,11 +33,11 @@
     "static/media/scrum.png": "/portfolio/static/media/scrum.7d7a6673b07384b0aaca.png",
     "index.html": "/portfolio/index.html",
     "main.5346d323.css.map": "/portfolio/static/css/main.5346d323.css.map",
-    "main.85330519.js.map": "/portfolio/static/js/main.85330519.js.map",
+    "main.f3b5a97c.js.map": "/portfolio/static/js/main.f3b5a97c.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5346d323.css",
-    "static/js/main.85330519.js"
+    "static/js/main.f3b5a97c.js"
   ]
 }
