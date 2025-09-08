@@ -29,11 +29,6 @@ section:nth-child(odd) {
   align-items: center;
 }
 
-.home-pic img {
-  height: 75vh;
-  margin-top: 32px;
-  animation: slide_up 1.5s ease;
-}
 
 @keyframes slide_up {
   0% {
@@ -47,8 +42,8 @@ section:nth-child(odd) {
 }
 
 .home-info div {
-  align-items: flex-start;
-  width: 90%;
+  align-items: center;
+  width: 100%;
   animation: slide_right 1.5s ease;
 }
 

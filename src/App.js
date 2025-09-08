@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './props/navbar';
 
-import home_img from './props/img/home_pic.png';
 import pic1 from './props/img/pic1.jpg';
 // Social Media
 import email_icon from './props/img/social_media/mail_icon.png';
@@ -89,11 +88,6 @@ const App = () => {
 
       {/* Home */}
       <section id = "home" className = "home shadow">
-        {/* Home Picture */}
-        <div className='home-pic justify-center'>
-          <img src = {home_img} alt = "home_img" />
-        </div>
-        
         {/* Home Info */}
         <div className = "home-info">
           <div className = "flex-col gap-4">
